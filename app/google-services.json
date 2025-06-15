@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1051993834370",
+    "project_id": "nova-v4",
+    "storage_bucket": "nova-v4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051993834370:android:bd2436e4432e6ff58d859b",
+        "android_client_info": {
+          "package_name": "com.karayalcinyasin.nova_v4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWg1awTzPOyWaH-uVJnkbln8_WJrc7F1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

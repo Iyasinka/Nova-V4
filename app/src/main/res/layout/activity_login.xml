@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c6dde7"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/top_background1" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:text="Hoşgeldiniz"
+                android:textColor="#4871b2"
+                android:textSize="50sp"
+                android:textStyle="bold"
+
+                />
+
+            <EditText
+                android:id="@+id/giriskulad"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/email_background"
+                android:drawableStart="@drawable/baseline_recent_actors_24"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Kullanıcı Adı"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:textColor="#4871b2"
+                android:textColorHint="#4871b2" />
+
+            <EditText
+                android:id="@+id/girissifre"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/email_background"
+                android:drawableStart="@drawable/password"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Şifre"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="#4871b2"
+                android:textColorHint="#4871b2" />
+
+            <ImageView
+                android:id="@+id/girisyap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/btn_login" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/girisbilgi"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="Yeni kullanıcı mısın? Kayıt ol"
+                    android:textAlignment="center"
+                    android:textColor="#4871b2"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

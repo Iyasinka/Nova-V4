@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#c6dde7"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/top_background1" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:text="Kayıt Ol"
+                android:textColor="#4871b2"
+                android:textSize="40sp"
+                android:textStyle="bold"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/kayıtadi"
+                    android:layout_width="160dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/email_background"
+                    android:drawableStart="@drawable/name"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Adı"
+                    android:inputType="textPersonName"
+                    android:padding="8dp"
+                    android:textColor="#4871b2"
+                    android:textColorHint="#4871b2" />
+
+                <EditText
+                    android:id="@+id/kayitsoyadi"
+                    android:layout_width="160dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/email_background"
+                    android:drawableStart="@drawable/name"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Soyadı"
+                    android:inputType="textPersonName"
+                    android:padding="8dp"
+                    android:textColor="#4871b2"
+                    android:textColorHint="#4871b2" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/kayitkulad"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/email_background"
+                android:drawableStart="@drawable/baseline_recent_actors_24"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Kullanıcı Adı"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textColor="#4871b2"
+                android:textColorHint="#4871b2" />
+
+            <EditText
+                android:id="@+id/kayitemail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/email_background"
+                android:drawableStart="@drawable/email"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:textColor="#4871b2"
+                android:textColorHint="#4871b2" />
+
+            <EditText
+                android:id="@+id/kayitsifre"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/email_background"
+                android:drawableStart="@drawable/password"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Şifre"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="#4871b2"
+                android:textColorHint="#4871b2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/kayitdate"
+                    android:layout_width="160dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/email_background"
+                    android:drawableStart="@drawable/baseline_date_range_24"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:hint="Doğum Tarihi"
+                    android:inputType="date|number"
+                    android:padding="8dp"
+                    android:textColor="#4871b2"
+                    android:textColorHint="#4871b2" />
+
+                <EditText
+                    android:id="@+id/kayittel"
+                    android:layout_width="160dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/email_background"
+                    android:drawableStart="@drawable/baseline_local_phone_24"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Telefon"
+                    android:inputType="number"
+                    android:padding="8dp"
+                    android:textColor="#4871b2"
+                    android:textColorHint="#4871b2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/kayitolbilgi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:text="Bir hesabın var mı ? Giriş Yap"
+                    android:textAlignment="center"
+                    android:textColor="#4871b2"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/girisyap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                app:srcCompat="@drawable/btn_login" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
